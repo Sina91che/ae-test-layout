@@ -77,13 +77,19 @@ margin-bottom: 15px;
     font-size: 18px;
     line-height: 21px;
     color: #31B447;
-    text-decoration-color: transparent;
+    /* text-decoration-color: transparent; */
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
     transition: all .2s linear;
 
 }
 .item-download-link:hover {
     color: #3edd59;
     text-decoration-color: #3edd59;
+    background-size: 100% 2px;
     transition: all .2s;
 }
 
